@@ -1,0 +1,51 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway&family=Roboto+Mono:ital@1&display=swap');
+
+.body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #AAAAAA;
+}
+
+/*-------------------- Header --------------------*/
+header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+header h3{
+    margin-left: 57px;
+    font-size: 24px;
+}
+
+
+/*-------------------- Main --------------------*/
+    .container{
+        background-color: #FFFFFF;
+        margin: 1px;
+        padding: 5px;
+    }
+    .journey{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 50px;
+        justify-items: center;
+        
+    }
+    .journey-info{
+        width: 540px;
+        height: 270px;
+    }
+    .journey-info h1{
+        font-size: 40px;
+    }
+    .journey-info button{
+        width: 196px;
+        height: 44px;
+        font-size: 16px bold;
+        background-color: #E02C6D;
+    }
+    .journey-pic img{
+        width: 300px;
+        height: 275px;
+    }
+
+/*-------------------- Footer --------------------*/
