@@ -207,15 +207,30 @@ footer{
 Media Queries for Responsiveness
 ---------------------------------*/
 /* Mobile Devices */
-@media only screen and (max-width:688px) {
-    /* .container{
-        width: 100%;
-    } */
-    .journey .gears .feature{
-        grid-template-columns: repeat(1,1fr);
-    }
-    .journey .gears .feature{
-        flex-direction: column;
-    }
+
+@media only screen and (max-width:688px){
     
+    .journey{
+        grid-template-columns:repeat(1, 1fr)
+    }
+    .gears{
+        grid-template-columns:repeat(1, 1fr)
+    }
+   
+    .feature{
+        grid-template-columns:repeat(1, 1fr)
+    }
+}
+
+@media only screen and (min-width:689) and (max-width:991px){
+   
+    .journey{
+        grid-template-columns:repeat(1, 1fr)
+    }
+    .gears{
+        grid-template-columns:repeat(2, 1fr)
+    }
+    .feature{
+        grid-template-columns:repeat(1, 1fr)
+    }
 }
