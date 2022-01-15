@@ -57,6 +57,7 @@ header h3{
     .journey-pic img{
         width: 300px;
         height: 275px;
+        border-radius: 10px;
     }
     button{
         background-color: #E02C6D;
@@ -154,3 +155,22 @@ header h3{
 
 
 /*-------------------- Footer --------------------*/
+footer{
+    background-color: rebeccapurple;
+}
+.footer-detail{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    
+}
+.footer-detail h3{
+    font-size: 24px;
+    font-weight:bolder;
+}
+.footer-detail p{
+    font-size: 14px;
+    font-weight: bolder;
+}
