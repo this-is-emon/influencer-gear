@@ -109,6 +109,13 @@ header h3{
     .gears{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        grid-row-gap: 6px;
+        grid-column-gap: 3px;
+    }
+    .gear{
+        padding: 20px 20px;
+        border-radius: 10px;
+        box-shadow:.5px 5px 15px 5px rgb(165, 165, 165) ;
     }
     .gear-name{
         font-size: 28px;
@@ -190,4 +197,21 @@ footer{
 .footer-detail p{
     font-size: 14px;
     font-weight: bolder;
+}
+
+/* -----------------
+Media Queries 
+--------------------*/
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .journey .gears .feature{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .journey .gears .feature{
+        flex-direction: column;
+    }
+    
 }
