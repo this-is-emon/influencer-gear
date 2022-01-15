@@ -69,6 +69,10 @@ header h3{
         text-align: center;
         font-weight: 600;
     }
+    .gears{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
     .gear-name{
         font-size: 28px;
     }
@@ -89,5 +93,21 @@ header h3{
         font-size: 18px;
         color: #787885;
     }
+    /* See More  */
+    .see-more{
+        text-align: right;
+        font-size: 25px;
+        margin-right: 15px;
+        
+    }
+    .see-more p a{
+        color: #E02C6D;
+        font-weight: 900;
+        text-decoration: none;
+    }
+    .see-more p a i{
+        font-size: 20px;
+    }
+
 
 /*-------------------- Footer --------------------*/
