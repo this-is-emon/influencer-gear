@@ -17,17 +17,20 @@ header h3{
 }
 
 
-/*-------------------- Main --------------------*/
+/*-------------------- Main Starts--------------------*/
     .container{
         background-color: #FFFFFF;
         margin: 1px;
         padding: 5px;
+        
     }
+    /* journey section  */
     .journey{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-gap: 50px;
         justify-items: center;
+        margin-bottom: 50px;
         
     }
     .journey-info{
@@ -36,16 +39,55 @@ header h3{
     }
     .journey-info h1{
         font-size: 40px;
+        font-weight: 600;
+    }
+    .journey-info p{
+        font-size: 20px;
+        font-weight: 600;
     }
     .journey-info button{
-        width: 196px;
-        height: 44px;
-        font-size: 16px bold;
         background-color: #E02C6D;
+        color: white;
+        padding: 10px 30px;
+        font-size: 20px;
+        border: 1px solid lightgreen;
+        border-radius: 50px;
     }
     .journey-pic img{
         width: 300px;
         height: 275px;
+    }
+    hr{
+        color:pink;
+    }
+    /* collection Section  */
+    .gear-collection{
+        margin-top: 50px;
+    }
+    .section-title{
+        font-size: 28px;
+        text-align: center;
+        font-weight: 600;
+    }
+    .gear-name{
+        font-size: 28px;
+    }
+    .gear-price{
+        font-size: 24px;
+    }
+    .fas{
+        font-size: 10px;
+    }
+    .fa-star.filled{
+        color: #FFC014;
+    }
+    .fa-star.empty{
+        color: #AEAEAE;
+    
+    }
+    .gear-p{
+        font-size: 18px;
+        color: #787885;
     }
 
 /*-------------------- Footer --------------------*/
