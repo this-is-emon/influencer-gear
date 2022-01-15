@@ -109,10 +109,12 @@ header h3{
     .gears{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        grid-row-gap: 6px;
-        grid-column-gap: 3px;
+        grid-row-gap: 40px;
+        justify-items: center;
+        
     }
     .gear{
+        
         padding: 20px 20px;
         border-radius: 10px;
         box-shadow:.5px 5px 15px 5px rgb(165, 165, 165) ;
@@ -180,7 +182,7 @@ header h3{
 
 /*-------------------- Footer --------------------*/
 footer{
-    background-color: rebeccapurple;
+    background-color: rgb(42, 5, 80);
 }
 .footer-detail{
     padding: 10px;
@@ -191,22 +193,24 @@ footer{
     
 }
 .footer-detail h3{
+    padding-top: 10px;
     font-size: 24px;
     font-weight:bolder;
 }
 .footer-detail p{
+    line-height: 10px;
     font-size: 14px;
     font-weight: bolder;
 }
 
-/* -----------------
-Media Queries 
---------------------*/
+/* ------------------------------
+Media Queries for Responsiveness
+---------------------------------*/
 /* Mobile Devices */
 @media only screen and (max-width:688px) {
-    .container{
+    /* .container{
         width: 100%;
-    }
+    } */
     .journey .gears .feature{
         grid-template-columns: repeat(1,1fr);
     }
